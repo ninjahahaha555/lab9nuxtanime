@@ -8,7 +8,7 @@
           <h1>{{ this.$route.params.id.title }}</h1>
         </div>
         <div align="left">
-          <h3>{{ this.$route.params.id.synopsis }}</h3>
+          <h3>---------- {{ this.$route.params.id.synopsis }}</h3>
           <h3>Episode : {{ this.$route.params.id.episodes }}</h3>
           <h3>Score : {{ this.$route.params.id.score }}</h3>
           <h3>Rating : {{ this.$route.params.id.rated }}</h3>

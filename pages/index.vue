@@ -44,39 +44,6 @@
           :per-page="perPage"
         />
       </div>
-      <!-- <b-card-group columns>
-        <b-card
-          v-for="data in animeData"
-          :key="data.mal_id"
-          style="width: 450px"
-          class="mb-3"
-        >
-          <b-row>
-            <b-col md="4">
-              <a :href="data.url">
-                <b-card-img :src="data.image_url" />
-              </a>
-              Episode : {{ data.episodes }}
-            </b-col>
-            <b-col md="8">
-              <b-card-body :title="data.title">
-                <b-card-text>{{ data.synopsis }}</b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-      </b-card-group>
-      <div v-if="run == true">
-        <b-pagination
-          v-model="currentPage"
-          :total-rows="animeData.length"
-          :per-page="perPage"
-          first-text="First"
-          prev-text="Prev"
-          next-text="Next"
-          last-text="Last"
-        />
-      </div> -->
     </div>
   </div>
 </template>
